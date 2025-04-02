@@ -34,6 +34,18 @@ const DonnaAssistant = () => {
                   ></elevenlabs-convai>
                 </div>
               </div>
+
+              {/* Second ElevenLabs Widget */}
+              <div className="w-full max-w-2xl rounded-2xl bg-[#1A1A2E]/30 backdrop-blur-md border border-[#C9A959]/20 p-8 shadow-xl ml-[-20%] mt-8">
+                <div className="flex justify-center">
+                  <elevenlabs-convai 
+                    agent-id="NK7f7TG532ujHwjjmvYL"
+                    debug="true"
+                    theme="dark"
+                    position="center"
+                  ></elevenlabs-convai>
+                </div>
+              </div>
             </div>
           </div>
         </main>
