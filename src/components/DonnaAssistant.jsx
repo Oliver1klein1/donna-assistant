@@ -28,6 +28,9 @@ const DonnaAssistant = () => {
                 <div className="flex justify-center">
                   <elevenlabs-convai 
                     agent-id="SQ16J17d50LcDV05rCet"
+                    debug="true"
+                    theme="dark"
+                    position="center"
                   ></elevenlabs-convai>
                 </div>
               </div>
